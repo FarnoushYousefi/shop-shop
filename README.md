@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## 🌐 Deployed Application Link 
 
-[**Click Here**](https://ecommerce-shop-redux.herokuapp.com/) to view the deployed application. 
+[**Click Here**](https://ecomercialapp-with-redux.herokuapp.com/) to view the deployed application. 
 
 ## ▶️ Final Output GIF 
 
