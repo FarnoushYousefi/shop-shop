@@ -12,7 +12,9 @@ const rootState = {
 }
 
 // define store
-const store = createStore(reducer, rootState);
+const store = createStore(reducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(), rootState
+  );
+
 
 // export store
 export default store;

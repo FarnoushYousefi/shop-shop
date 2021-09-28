@@ -11,13 +11,15 @@ function CategoryMenu() {
   const { categories } = state;
 
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
-
+  console.log('cccccccccccc',categoryData)
   useEffect(() => {
     if (categoryData) {
       dispatch({
         type: UPDATE_CATEGORIES,
-        categories: categoryData.categories
+        categories: categoryData.categories,
+        
       });
+      
       categoryData.categories.forEach(category => {
         idbPromise('categories', 'put', category);
       });
